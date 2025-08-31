@@ -63,3 +63,31 @@ Developed as part of team APXGP
 Contributors:
 - Yap Jia Wei [https://github.com/heeelol]
 - Chin Li-Loong [https://github.com/chinll1]
+
+## Setup & Run
+
+Follow these steps to set up and run **Sift** locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ChinLL1/Sift
+cd sift
+```
+### 2. Create virtual environment
+
+`python -m venv venv`
+
+### 3. Activate on macOS/Linux
+
+`source venv/bin/activate`
+
+### 4. Activate on Windows
+
+`venv\Scripts\activate`
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 5. Run
+Choose a model in `Sift/models` to run. Note: Directory should be in `Sift` before running the models.
